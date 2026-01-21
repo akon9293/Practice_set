@@ -1,1 +1,4 @@
-variables ,primitives and objects in javascript
+Chapter - 1
+
+1. variables in javascript
+2. primitives and objects in javascript
