@@ -1,12 +1,9 @@
-let a = prompt("what is your age?");
+let num = prompt("Enter you number: ");
 
-if (a >= 10 && a <= 20) {
-    console.log(a);
+if (num%2==0 && num%7 == 0){
+console.log("the number is can div with 2 and 7");
 }
 
-else {
-    console.log("not 20s");
-
+else{
+    console.log("the number is can't div with 2 and 7");
 }
-
-
