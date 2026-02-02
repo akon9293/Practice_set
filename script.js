@@ -1,9 +1,9 @@
-let num = prompt("Enter you number: ");
+let age = prompt("Enter you age: ");
 
-if (num%2==0 && num%7 == 0){
-console.log("the number is can div with 2 and 7");
-}
-
-else{
-    console.log("the number is can't div with 2 and 7");
+if (age >= 18) {
+    console.log("you can drive");
+    
+} else {
+    console.log("you cant't drive");
+    
 }
