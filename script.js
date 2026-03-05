@@ -1,9 +1,15 @@
-let age = prompt("Enter you age: ");
+function max(arr) {
+    let largest = arr[0];
 
-if (age >= 18) {
-    console.log("you can drive");
-    
-} else {
-    console.log("you cant't drive");
-    
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i];
+        }
+    }
+
+    return largest;
 }
+
+let number = [56,45,100,44,152,1];
+let result = max(number); 
+console.log(result);
